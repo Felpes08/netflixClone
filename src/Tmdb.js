@@ -34,7 +34,7 @@ export default {
             {
                 slug:'toprated',
                 title:'Em Alta',
-                items: await basicFetch (`/movie/toprated?language=pt-BR&api_key=${API_KEY}`)
+                items: await basicFetch (`/movie/top_rated?api_key=${API_KEY}&language=pt-BR`)
             },
             {
                 slug:'action',
